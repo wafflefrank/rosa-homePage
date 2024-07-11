@@ -18,13 +18,14 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'max-len': 0
+    'max-len': 0,
     // 'import/no-extraneous-dependencies': [
     //   'error',
     //   {
     //     devDependencies: ['**/*.test.js', '**/*.spec.js', '**/vite.config.js']
     //   }
     // ]
+    'no-control-regex': 'off'
   },
   globals: {
     YT: 'readonly',
